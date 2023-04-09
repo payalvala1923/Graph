@@ -1,3 +1,6 @@
+//tc: O(n+2e)+ O(n)
+// sc: O(n) +O(n)
+
 bool check(int i, vector<int> adj[], int v[]){
       v[i]=1;
       queue<pair<int , int>> q;
